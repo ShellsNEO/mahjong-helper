@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/EndlessCheng/mahjong-helper/util"
-	"github.com/EndlessCheng/mahjong-helper/util/model"
+	"github.com/ShellsNEO/mahjong-helper/util"
+	"github.com/ShellsNEO/mahjong-helper/util/model"
 	"github.com/fatih/color"
 	"math/rand"
 	"strings"
@@ -72,9 +72,9 @@ var platforms = map[int][]string{
 	},
 }
 
-const readmeURL = "https://github.com/EndlessCheng/mahjong-helper/blob/master/README.md"
-const issueURL = "https://github.com/EndlessCheng/mahjong-helper/issues"
-const issueCommonQuestions = "https://github.com/EndlessCheng/mahjong-helper/issues/104"
+const readmeURL = "https://github.com/ShellsNEO/mahjong-helper/blob/master/README.md"
+const issueURL = "https://github.com/ShellsNEO/mahjong-helper/issues"
+const issueCommonQuestions = "https://github.com/ShellsNEO/mahjong-helper/issues/104"
 const qqGroupNum = "375865038"
 
 func welcome() int {
