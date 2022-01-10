@@ -177,7 +177,7 @@ func (l riskInfoList) mixedRiskTable() riskTable {
 func (l riskInfoList) printWithHands(hands []int, leftCounts []int) {
 	// 听牌率超过一定值就打印铳率
 	const (
-		minShownTenpaiRate4 = 50.0
+		minShownTenpaiRate4 = 85.0
 		minShownTenpaiRate3 = 20.0
 	)
 
@@ -582,7 +582,7 @@ func (r *analysisResult) printWaitsWithImproves13_oneRow() {
 
 	if len(result13.YakuTypes) > 0 {
 		// 役种（两向听以内开启显示）
-		if result13.Shanten <= 2 {
+		if result13.Shanten <= 8 {
 			if !showAllYakuTypes && !debugMode {
 				shownYakuTypes := []int{}
 				for yakuType := range result13.YakuTypes {
